@@ -34,6 +34,8 @@ function setup(){
     log5 = new Log(870,120,150, -PI/7);
 
     bird = new Bird(100,100);
+    platform = new Ground(300,150,200,300);
+    platform1 = new Ground(100,40,50,180);
 
 }
 
@@ -57,6 +59,7 @@ function draw(){
     box5.display();
     log4.display();
     log5.display();
-
+platform.display();
+platform1.display();
     bird.display();
 }
